@@ -1,11 +1,11 @@
-mainprefix = "~MAINPREFIX~"     # Ideally, replace "~MAINPREFIX~" across the whole repo with your mod's mainprefix, example "t" (without the "")
-prefix = "~PREFIX~"             # Ideally, replace "~PREFIX~" across the whole repo with your mod's prefix, example "mod" (without the "") 
+mainprefix = "x"     # Ideally, replace "x" across the whole repo with your mod's mainprefix, example "t" (without the "")
+prefix = "bluefields_armory"             # Ideally, replace "bluefields_armory" across the whole repo with your mod's prefix, example "mod" (without the "") 
 
-name = "Example Mod"
+name = "Bluefield's Armory"
 
 [properties]
-author = "Derp Derpington"
-url = "https://github.com/Derpington"
+author = "Bluefield"
+url = "https://github.com/bluefield-creator"
 
 [binarize]
 enabled = true # Default: true
@@ -24,6 +24,7 @@ exclude = [
     "*.psd",        # By default this list is empty
     "*.md",
     "/.vscode/",
+    "/addons/template_addon/"
 ]
 
 [version]
